@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Samrat Ghosh",
+      "password": "1234567890",
+      "email": "samratat@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Roshni Das",
+      "password": "1234567809",
+      "email": "roshnidas@gmail.com"
+    },
+    {
+      "name": "Test",
+      "password": "1234567890",
+      "email": "test@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "test1",
+      "password": "1234567890",
+      "email": "test1@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "lol",
+      "password": "1234567890",
+      "email": "lol@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "lol1",
+      "password": "1234567890",
+      "email": "lol1@gmail.com",
+      "id": 6
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "message": "This is a test message of thread 1.",
+      "author": "samratat@gmail.com",
+      "replies": [
+        {
+          "id": 0,
+          "author": "samratat@gmail.com",
+          "message": "Lol, I love this.dfsdf"
+        },
+        {
+          "id": 678,
+          "author": "samratat@gmail.com",
+          "message": "hgfhfghsdfsdfsdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "message": "This is a test message of thread 2. message of thread 2. This is a test message of thread 2.",
+      "author": "roshnidas@gmail.com",
+      "replies": [
+        {
+          "id": 322,
+          "message": "123123",
+          "author": "samratat@gmail.com"
+        },
+        {
+          "id": 292,
+          "message": "LOl",
+          "author": "roshnidas@gmail.com"
+        }
+      ]
+    },
+    {
+      "author": "samratat@gmail.com",
+      "message": "Tesdt",
+      "replies": [],
+      "id": 3
+    },
+    {
+      "author": "samratat@gmail.com",
+      "message": "Useless",
+      "replies": [],
+      "id": 4
+    },
+    {
+      "id": 5,
+      "message": "LOL",
+      "author": "test@gmail.com",
+      "replies": [
+        {
+          "id": 504,
+          "message": "Lol",
+          "author": "samratat@gmail.com"
+        }
+      ]
+    },
+    {
+      "author": "samratat@gmail.com",
+      "message": "lol",
+      "replies": [],
+      "id": 6
+    }
+  ]
+}
